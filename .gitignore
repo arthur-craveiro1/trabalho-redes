@@ -1,0 +1,6 @@
+*.exe
+*.o
+chat_server_copy
+chat_client_copy
+logs_*/
+verificacao_local/
