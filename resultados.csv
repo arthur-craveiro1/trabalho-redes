@@ -1,0 +1,4 @@
+clientes,repeticao,bloco_bytes,aquecimento_s,duracao_s,bytes_recebidos,throughput_mbps,valido,bytes_cliente_1,bytes_cliente_2,bytes_cliente_3,bytes_cliente_4,bytes_cliente_5,bytes_cliente_6,bytes_cliente_7,bytes_cliente_8,bytes_cliente_9,bytes_cliente_10
+1,1,65536,3,10.000000000,0,0.000000,0,0,0,0,0,0,0,0,0,0,0
+1,1,65536,3,10.000000000,0,0.000000,0,0,0,0,0,0,0,0,0,0,0
+1,1,65536,3,10.000000000,158980264,127.184211,1,158980264,0,0,0,0,0,0,0,0,0
