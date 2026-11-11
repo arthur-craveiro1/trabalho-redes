@@ -257,3 +257,13 @@ foi implementado, mas nao foi compilado/executado neste ambiente Windows.
 | **Compilador** | GCC 16.2.0, MSYS2/UCRT64 | Permite reproduzir a compilação; registre também as flags utilizadas. |
 | **Velocidade do enlace** | 866,7 Mbps reportados pelo adaptador | É a velocidade do enlace, **não a taxa útil garantida do programa**. |
 | **Ethernet** | Realtek PCIe GbE, atualmente desconectada | Permite realizar uma campanha por cabo para reduzir a variabilidade do Wi-Fi. |
+
+### PC2
+| Configuração | Seu PC | Relevância |
+|---|---|---|
+| **Processador** | Intel Core i5-1135G7 @ 2,40 GHz, 4 núcleos e 8 processadores lógicos | Influencia o processamento das conexões e threads simultâneas. |
+| **Memória RAM** | 16,0 GB instalados, com aproximadamente 15,7 GB utilizáveis | Contextualiza os recursos usados pelos processos, threads e buffers. |
+| **Sistema operacional** | Windows com WSL2, Ubuntu 24.04, 64 bits | Determina as APIs de sockets e o ambiente de execução; os testes no WSL2 usam o kernel Linux 6.6.87.1. |
+| **Compilador** | GCC 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1) | Permite reproduzir a compilação; registre também as flags utilizadas. |
+| **Velocidade do enlace** | Wi-Fi: 433,3 Mbps | É a velocidade do enlace, **não a taxa útil garantida do programa**. |
+| **Ethernet** | Nenhum adaptador Ethernet físico informado; há adaptadores virtuais TAP/OpenVPN (1 Gbps) e vEthernet/WSL (10 Gbps) | Os adaptadores virtuais não representam a velocidade física da rede; uma campanha por cabo deve registrar o adaptador Ethernet físico quando conectado. |
