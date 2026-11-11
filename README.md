@@ -246,3 +246,14 @@ verificada com dez clientes. Os artefatos locais ficam em `verificacao_local/`.
 Esses testes verificam o programa, **nao substituem a campanha entre dois PCs**
 e nao devem ser usados como resultados de rede no relatorio. O caminho Linux
 foi implementado, mas nao foi compilado/executado neste ambiente Windows.
+
+## Configurações dos PCs
+### PC1
+| Configuração | Seu PC | Relevância |
+|---|---|---|
+| **Processador** | Intel Core i5-13420H, 8 núcleos e 12 processadores lógicos | Influencia o processamento das conexões e threads simultâneas. |
+| **Memória RAM** | Aproximadamente 15,7 GiB disponíveis ao sistema | Contextualiza os recursos usados pelos processos, threads e buffers. |
+| **Sistema operacional** | Windows 11 Home Single Language, 64 bits, versão 10.0.26300 | Determina as APIs de sockets e o ambiente de execução. |
+| **Compilador** | GCC 16.2.0, MSYS2/UCRT64 | Permite reproduzir a compilação; registre também as flags utilizadas. |
+| **Velocidade do enlace** | 866,7 Mbps reportados pelo adaptador | É a velocidade do enlace, **não a taxa útil garantida do programa**. |
+| **Ethernet** | Realtek PCIe GbE, atualmente desconectada | Permite realizar uma campanha por cabo para reduzir a variabilidade do Wi-Fi. |
